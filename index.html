@@ -10,7 +10,9 @@
         <title>12Bool</title>
     </head>
     <body>
+        <!--container-->
         <div class="container">
+            <!--row for n/12 columns-->
             <div class="row">
                 <div class="col-1">1 col</div>
                 <div class="col-1">1 col</div>
@@ -25,7 +27,46 @@
                 <div class="col-1">1 col</div>
                 <div class="col-1">1 col</div>
             </div>
-        </div>
-        
+            <!--/row for n/12 columns-->
+            <div class="row">
+                <div class="col-2">2 col</div>
+                <div class="col-5">5 col</div>
+                <div class="col-5">5 col</div>
+            </div>
+            <div class="row">
+                <div class="col-12">12 col</div>
+            </div>
+            <div class="row">
+                <div class="col-8">8 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-2">2 col</div>
+            </div>
+            <div class="row">
+                <div class="col-1">1 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-2">2 col</div>
+                <div class="col-6">6 col</div>
+                <div class="col-1">1 col</div>
+            </div>
+            <div class="row">
+                <div class="col-6">
+                    <!--row for nest column-->
+                    <div class="row">
+                        <!--nested column-->
+                        <div class="col">Nested 2 col</div>
+                        <div class="col">Nested 2 col</div>
+                        <div class="col">Nested 8 col</div>
+                        <!--nested column-->
+                    </div>
+                    <!--/row for nest column-->
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col">Nested 6 col</div>
+                        <div class="col">Nested 6 col</div>
+                    </div>
+                </div>
+            </div>
+        </div>     
     </body>
 </html>

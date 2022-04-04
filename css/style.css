@@ -1,8 +1,18 @@
-.col-1 {
+/*COMMONS*/
+[class*=col-] {
     background-color: #006cfa;
-    min-height: 40px;
+    min-height: 30px;
     border: 1px solid #fff;
     text-align: center;
-    line-height: 40px;
+    line-height: 30px;
     color: #fff;
+}
+/*columns style*/
+.col {
+    background-color: #00e165;
+    border: 1px solid #006cfa;
+    width: 100%;
+}
+.col-6 > .row {
+    padding: 10px;
 }
