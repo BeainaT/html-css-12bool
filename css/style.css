@@ -1,0 +1,8 @@
+.col-1 {
+    background-color: #006cfa;
+    min-height: 40px;
+    border: 1px solid #fff;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+}
