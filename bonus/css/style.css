@@ -1,0 +1,41 @@
+body {
+    background-color: gainsboro;
+}
+.hero-top, .hero-bottom {
+    background-image: url(../img/Procession-of-the-Seasons.jpg);
+    background-size: cover;
+    height: 200px;
+}
+.hero-top {
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.hero-bottom {
+    background-position: bottom;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.title {
+    font-size: 2.5em;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+.row {
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+.text, h2 {
+    text-align: center;
+    padding: 10px;
+}
+.row.gap {
+    column-gap: 15px;
+}
